@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="public _html/liquidcodes" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Larry\\Documents\\Visual\ Studio\ 2013\\Projects\\MarkDemoWebTry\\MarkDemo\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Larry\\Documents\\Visual\ Studio\ 2013\\Projects\\MarkDemoWebTry\\MarkDemo\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="MarkDemo.TaskContactDbContext-Web.config Connection String" description="" value="MarkDemo.TaskContactDbContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Larry\\Documents\\Visual\ Studio\ 2013\\Projects\\MarkDemoWebTry\\MarkDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MarkDemo.TaskContactDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="MarkDemoConnection-Web.config Connection String" description="" value="Data Source=(localDb)\MSSQLLocalDb;AttachDbFilename=|DataDirectory|\MarkDemo.TaskContactDbContext.mdf;Initial Catalog=Pools2;Integrated Security=False" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Larry\\Documents\\Visual\ Studio\ 2013\\Projects\\MarkDemoWebTry\\MarkDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MarkDemoConnection']/@connectionString" />
+  </parameter>
+</parameters>

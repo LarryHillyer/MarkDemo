@@ -1,0 +1,38 @@
+﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="Site.Mobile.master.vb" Inherits="MarkDemo.Site_Mobile" %>
+
+<%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <h3>Mark's Mobile Demo</h3>
+           <a id="HomePage" runat="server" href="~/Default.aspx">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <a id="ContactPage" runat="server" href="~/People.aspx">Contacts</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <a id="TaskPage" runat="server" href="~/ToDoList.aspx">Tasks</a><br />
+           <section class="content-wrapper main-content clear-fix">
+           <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+        </section>
+    </div>
+    <div class="container body-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - A LiquidCode Application</p>
+            </footer>
+        </div>
+
+    </form>
+
+</body>
+</html>
+
