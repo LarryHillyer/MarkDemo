@@ -1,0 +1,396 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MarkDemo
+</name>
+</assembly>
+<members>
+<member name="P:MarkDemo.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:MarkDemo.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:MarkDemo.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:MarkDemo.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:MarkDemo.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:MarkDemo.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:MarkDemo.Contact_Page.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.TaskSearch1.SearchTaskName1">
+	<summary>
+SearchTaskName1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.TaskSearch1.SearchOwner1">
+	<summary>
+SearchOwner1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.TaskSearch1.SearchAccount1">
+	<summary>
+SearchAccount1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.TaskSearch1.FoundTask1">
+	<summary>
+FoundTask1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.TaskSearch1.RadioButtonList1">
+	<summary>
+RadioButtonList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.TaskSearch1.LinqDataSource1">
+	<summary>
+LinqDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo._Default.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.People.Title1">
+	<summary>
+Title1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.People.ErrorLabel1">
+	<summary>
+ErrorLabel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.People.FirstName1">
+	<summary>
+FirstName1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.People.LastName1">
+	<summary>
+LastName1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.People.Address1">
+	<summary>
+Address1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.People.ErrorLabel2">
+	<summary>
+ErrorLabel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.People.PhoneNumber1">
+	<summary>
+PhoneNumber1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.People.Add2">
+	<summary>
+Add2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.People.Search2">
+	<summary>
+Search2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.People.Clear">
+	<summary>
+Clear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.ToDoList.ErrorLabel1">
+	<summary>
+ErrorLabel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.ToDoList.TaskName1">
+	<summary>
+TaskName1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.ToDoList.ErrorLabel2">
+	<summary>
+ErrorLabel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.ToDoList.Owner1">
+	<summary>
+Owner1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.ToDoList.DueDate1">
+	<summary>
+DueDate1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.ToDoList.ErrorLabel3">
+	<summary>
+ErrorLabel3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.ToDoList.Account1">
+	<summary>
+Account1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.ToDoList.OverrideRate1">
+	<summary>
+OverrideRate1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.ToDoList.Description1">
+	<summary>
+Description1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.ToDoList.Add1">
+	<summary>
+Add1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.ToDoList.Search1">
+	<summary>
+Search1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.ToDoList.Clear1">
+	<summary>
+Clear1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.SiteMaster.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.PeopleSearch1.SearchFirstName1">
+	<summary>
+SearchFirstName1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.PeopleSearch1.SearchLastName1">
+	<summary>
+SearchLastName1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.PeopleSearch1.SearchPhoneNumber1">
+	<summary>
+SearchPhoneNumber1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.PeopleSearch1.FoundContact1">
+	<summary>
+FoundContact1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.PeopleSearch1.RadioButtonList1">
+	<summary>
+RadioButtonList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.PeopleSearch1.LinqDataSource1">
+	<summary>
+LinqDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.Site_Mobile.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.Site_Mobile.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.Site_Mobile.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.Site_Mobile.HomePage">
+	<summary>
+HomePage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.Site_Mobile.ContactPage">
+	<summary>
+ContactPage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.Site_Mobile.TaskPage">
+	<summary>
+TaskPage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.Site_Mobile.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MarkDemo.Site_Mobile.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

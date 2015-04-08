@@ -6,8 +6,8 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword />
-    <_PublishTargetUrl>ftp://192.185.6.21/public_html/liquidcodes.info</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPPKBRmuNtUyQiXVJ8umJfwAAAAACAAAAAAAQZgAAAAEAACAAAAD+mgoJRcpr2SyFDovvQiN01ceHm8r3uCE+MBz+9gWhxQAAAAAOgAAAAAIAACAAAAAQx+PNOIooYOADft2IvShndCnmnxu1aSM4XlWfnBVmnjAAAADcGZPc+o5ulzWurUpqyXmtlms2oSZm24Bykw+bXTuM7KKIJ2rcaQ/8Dt8JrCik4sNAAAAAm8LYdY6RkSxeFRfeFd1ZqaAzk8956PZctq5b0qhE5vs/HxBCUc4b6T7aN0FZ1N0Y7IV8741zFDWjA//xIqxdpA==</EncryptedPassword>
+    <_PublishTargetUrl>ftp://192.185.6.162/httpdocs/</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="About.aspx">
@@ -32,7 +32,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/31/2015 21:22:59</publishTime>
     </File>
     <File Include="bin/MarkDemo.dll">
-      <publishTime>04/03/2015 20:31:37</publishTime>
+      <publishTime>04/06/2015 16:14:56</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
       <publishTime>03/31/2015 21:21:17</publishTime>
@@ -62,7 +62,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/02/2015 18:11:39</publishTime>
     </File>
     <File Include="bin/WebForms_Basic.xml">
-      <publishTime>04/03/2015 20:31:37</publishTime>
+      <publishTime>04/06/2015 16:14:56</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>03/31/2015 21:21:14</publishTime>
@@ -221,7 +221,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/31/2015 21:21:11</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/03/2015 20:06:15</publishTime>
+      <publishTime>04/06/2015 16:42:02</publishTime>
     </File>
   </ItemGroup>
 </Project>
